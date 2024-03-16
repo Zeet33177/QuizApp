@@ -67,14 +67,23 @@ input[type="radio"] {
     height: 0.6rem;
 }
 .view-results {
-    padding: 1rem;
+    font-family: "Poppins", sans-serif;
+    padding: 0.5rem;
     cursor: pointer;
+    margin-left: 50px;
     color: white;
+    border: none;
     background: teal;
-    border-radius: 8px;
     margin-right: 5px;
 }
 .my-results {
-    padding: 1rem;
-    border: 1px solid goldenrod;
+    font-family: "Poppins", sans-serif;
+    padding: 0.5rem;
 }
+/*Media Queries 💀*/
+@media screen and (max-width: 768px) {
+    /* Adjust styles for mobile screens here */
+    :root{
+        font-size: 20px;
+    }
+    }
