@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+     <h2>dumbCoders</h2>
+    </nav>
+    <div class="container">
+        <ul class="quiz">
+        <li>
+             <h4>Q.1 &nbsp;How many letters are there in "JS"? </h4>
+             <ul class="choices">
+             <li><label><input type="radio" name="question0" value="A" /><span>2</span></label></li>
+             <li><label><input type="radio" name="question0" value="B" /><span>1</span></label></li>
+             <li><label><input type="radio" name="question0" value="C" /><span>3</span></label></li>
+             <li><label><input type="radio" name="question0" value="D" /><span>4</span></label></li>
+             </ul>
+        </li>
+        <li>
+             <h4>Q.2 &nbsp;How many tags are in HTML? </h4>
+             <ul class="choices">
+             <li><label><input type="radio" name="question1" value="A" /><span>10</span></label></li>
+             <li><label><input type="radio" name="question1" value="B" /><span>13</span></label></li>
+             <li><label><input type="radio" name="question1" value="C" /><span>44</span></label></li>
+             <li><label><input type="radio" name="question1" value="D" /><span>0</span></label></li>
+             </ul>
+        </li>
+        <li>
+             <h4>Q.3 &nbsp;Full Form of CSS </h4>
+             <ul class="choices">
+             <li><label><input type="radio" name="question2" value="A" /><span>Cascading Style Sheet</span></label></li>
+             <li><label><input type="radio" name="question2" value="B" /><span>Wrong</span></label></li>
+             <li><label><input type="radio" name="question2" value="C" /><span>Wrong</span></label></li>
+             <li><label><input type="radio" name="question2" value="D" /><span>Wrong</span></label></li>
+             </ul>
+        </li>
+     </ul>
+    </div>
+<button class="view-results" onclick="returnScore()">View Results</button>
+<span id="myresults" class="my-results">My results will appear here</span>
+    <script src="app.js"></script>
+  </body>
+</html>
