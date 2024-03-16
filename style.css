@@ -6,7 +6,7 @@
     box-sizing: inherit;
 }
 :root{
-    font-size: 9px;
+    font-size: 30px;
 }
 nav{
     font-size: 0.8rem;
@@ -51,7 +51,7 @@ span{
 .choices label,
 input[type="radio"] {
     border: 0px;
-    height: 7px;
+    height: 0.6rem;
 }
 .view-results {
     padding: 1rem;
