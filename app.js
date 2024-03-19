@@ -1,5 +1,15 @@
 
+
 var answers = ["A", "C", "A"],
+
+var answers = ["A", "C", "A"];
+const radioButtons = document.querySelectorAll('input[type="radio"]');
+function disableRadioButtons() {
+    radioButtons.forEach(function(radioButton) {
+      radioButton.disabled = true;
+    });
+  }
+console.log(radioButtons)
     tot = answers.length;
 
 function getCheckedValue(radioName) {
@@ -16,6 +26,7 @@ function getScore() {
 }
 
 function returnScore() {
+    disableRadioButtons();
     document.getElementById("myresults").innerHTML =
         "Your score is " + getScore() + "/" + tot;
 }

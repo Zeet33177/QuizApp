@@ -53,15 +53,34 @@ label{
 }
 
 li h4{
+
     background-color: antiquewhite;
     color: black;
     padding: 0.8rem;
     font-size: 0.8rem;
+
+    background-color: rgba(255, 255, 255, 0.877);
+    color: #006b8f;
+    border-radius: 10px;
+    padding: 7px 7px;
+    font-size: 0.7rem;
+
 }
 
 li,.my-results, button{
-    font-size: 0.75rem;
+    font-size: 0.66rem;
 }
+.quiz{
+margin-left:5%
+}
+#box{
+    width: 50%;
+    padding: 0.1rem 0.333rem;
+    border-radius: 15px;
+    background-color: #006b8f;
+    margin-bottom: 0.27rem;
+}
+
 
 .quiz {
     display: flex;
@@ -70,6 +89,9 @@ li,.my-results, button{
     gap: 2rem;
 }
 
+
+.quiz,
+>
 .choices {
     list-style-type: none;
     padding: 5px;
@@ -107,18 +129,37 @@ input[type="input"] {
 }
 
 .view-results {
-    padding: 1rem;
+    font-family: "Poppins", sans-serif;
+    padding: 0.5rem;
     cursor: pointer;
+    margin-left: 50px;
     color: white;
+
     background: rgb(0, 154, 23);
     border-radius: 8px;
+
+    border: none;
+    background: teal;
+
     margin-right: 5px;
 }
 
 
 .my-results {
+
     color: black;
     padding: 1rem;
     border: 1px solid goldenrod;
     font-weight: 500;
+
+    font-family: "Poppins", sans-serif;
+    padding: 0.5rem;
+
 }
+/*Media Queries 💀*/
+@media screen and (max-width: 768px) {
+    /* Adjust styles for mobile screens here */
+    :root{
+        font-size: 20px;
+    }
+    }
