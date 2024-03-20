@@ -40,12 +40,13 @@ nav > img {
     object-fit: contain;
 }
 
-.mcq-box {
+/* .mcq-box {
     width: 50%;
-    background-color: #0718B1;
+    background-color: #006b8f;
     padding: 1rem 0,5rem 0.5rem 1rem;
+    border-radius: 15px;
     list-style-type: none;
-}
+} */
 
 
 label{
@@ -70,6 +71,7 @@ li h4{
 li,.my-results, button{
     font-size: 0.66rem;
 }
+
 .quiz{
 margin-left:5%
 }
@@ -91,7 +93,6 @@ margin-left:5%
 
 
 .quiz,
->
 .choices {
     list-style-type: none;
     padding: 5px;
@@ -156,6 +157,7 @@ input[type="input"] {
     padding: 0.5rem;
 
 }
+
 /*Media Queries 💀*/
 @media screen and (max-width: 768px) {
     /* Adjust styles for mobile screens here */

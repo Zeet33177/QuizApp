@@ -1,7 +1,5 @@
 
 
-var answers = ["A", "C", "A"],
-
 var answers = ["A", "C", "A"];
 const radioButtons = document.querySelectorAll('input[type="radio"]');
 function disableRadioButtons() {
